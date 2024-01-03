@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Interop_cpp\Interop_cpp.vcxproj" />
+    <ProjectReference Include="..\Interop_csharp\Interop_csharp.csproj" />
+  </ItemGroup>
+
+</Project>
