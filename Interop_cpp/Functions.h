@@ -16,6 +16,8 @@ namespace Functions
 		int width, height;
 	};
 
+	void NoneExternalPrint();
+
 	extern "C" 
 	{
 		API void Print();
